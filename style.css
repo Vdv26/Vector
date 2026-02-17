@@ -2,6 +2,11 @@
 body {
     margin: 0px;
     background-color: #f8fafc;
+  
+}
+a {
+    color: black;
+    text-decoration: none;
 }
 .nav {
     display: flex;
@@ -15,6 +20,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+
 }
 .nav:hover {
     box-shadow: 1px 1px 1px 1px lightblue;
@@ -257,7 +263,9 @@ body {
 }
 .ser {
     display: flex;
-    align-items: center;
+    align-items: start;
+    justify-content: center;
+    
 }
 .l1 {
     margin-left: 10%;
@@ -275,4 +283,108 @@ body {
 .grp {
     display: flex;
     margin-left: 2%;
+}
+.header {
+    Font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    width: 35em;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px 2px #14b8a6;
+}
+label {
+    Font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1%;
+}
+#post img {
+    height: 40px;
+    width: 40px;
+    
+}
+.service {
+    width: 20em;
+    height: 3em;
+    border-radius: 12px;
+    background-color: lightgray;
+    
+}
+.inp {
+    width: 20em;
+    height: 3em;
+    border-radius: 12px;
+}
+.Tarea {
+    width: 20em;
+    height: 8em;
+}
+
+.header {
+    margin-left: 4%;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 12em;
+    background-color: #14b8a6;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 1%;
+}
+.livePreview {
+    border: 1px solid black;
+    width: 20%;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin-top: 10%;
+    box-shadow: 1px 1px 2px 2px #14b8a6;
+}
+.livePreview img {
+    height: 20px;
+    width: 20px;
+}
+.m {
+    display: flex;
+    justify-content: space-around;
+
+}
+.jobS {
+    border: 1px solid black;
+    width: 6em;
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: rgb(220, 220, 220);
+    color: gray;
+    border: none;
+}
+.availability {
+    border: 1px solid black;
+    width: 6em;
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: lightgreen;
+    opacity: 0.8;
+    color: darkcyan;
+    border: none;
+}
+.btm p {
+    display: flex;
 }
