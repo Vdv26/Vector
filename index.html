@@ -7,19 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville&family=Poppins&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Ubuntu&family=Varela+Round&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Ubuntu&family=Varela+Round&display=swap" rel="stylesheet">
     <title>LocalPro - Point|Click|Done</title>
 </head>
 <body>
     <div class="nav">
         <div class="logo">
-            <img src="./assets/logo.png">
+            <img src="./assets/logo.png" alt="LocalPro Logo">
             <p class="name">LocalPro</p>
         </div>
         <div class="home">
@@ -29,21 +22,25 @@
             <p><a href="#serv"> Services</a></p>
         </div>
         <div class="how">
-            <p><a href="/how">How It Works</a></p>
+            <p><a href="how.html">How It Works</a></p>
         </div>
         <div class="post">
             <p><a href="post.html"> Post a job</a></p>
         </div>
         <div class="contact">
-            <p><a href="/contact">Contact</a></p>
+            <p><a href="contact.html">Contact</a></p>
         </div>
         <div class="login">
-            <button>LogIn</button>
+            <button onclick="window.location.href='login.html'">LogIn</button>
         </div>
         <div class="signup">
-            <button>SignUp</button>
+            <button onclick="window.location.href='signup.html'">SignUp</button>
+        </div>
+        <div class="contact">
+            <button onclick="window.location.href='contact.html'">Contact</button>
         </div>
     </div>
+    
     <div class="section">
         <div class="sec1">
             <div class="trust">
@@ -58,92 +55,94 @@
         </div>
         
         <div class="asset">
-            <img src="./assets/asset.png">
+            <img src="./assets/asset.png" alt="Hero Asset">
         </div>
     </div>
+    
     <div class="info">
         <div class="search">
-            <img src="./assets/search.svg">
+            <img src="./assets/search.svg" alt="Search Icon">
             <input type="text" placeholder="What service do you need ?">
         </div>
         <div class="location">
-            <img src="./assets/location.svg">
+            <img src="./assets/location.svg" alt="Location Icon">
             <input type="text" placeholder="Your Location">
         </div>
         <div class="searchbtn">
             <button>Search</button>
         </div>
     </div>
+    
     <div class="ratings">
         <div class="cust">
-            <img src="./assets/people.svg">
+            <img src="./assets/people.svg" alt="People Icon">
             <div class="desc">
                 <p>10,000+ <br>Providers</p>
-                
             </div>
         </div>
         <div class="cust">
-            <img src="./assets/star.svg">
+            <img src="./assets/star.svg" alt="Star Icon">
             <div class="desc1">
                 <p>4.9 <br> Average Rating</p>
             </div>
         </div>
         <div class="cust">
-            <img src="./assets/check.svg">
+            <img src="./assets/check.svg" alt="Check Icon">
             <div class="desc2">
                 <p>50,000+ <br> Jobs Completed</p>
             </div>
         </div>
     </div>
+    
     <div class="services" id="serv">
         <h1>Our<span class="pros">Services</span></h1>
         <p class="servDesc">Find skilled professional for all your Home and Office needs.Every provider is verified rated by customers like you</p>
         <div class="container">
             <div class="card">
-                <img src="./assets/plumbing.png">
+                <img src="./assets/plumbing.png" alt="Plumbing">
                 <p class="head">Plumbing</p>
                 <p>Expert plumbers for repairs, installations, and maintenance.Available 24/7 for emergencies</p>
             </div>
             <div class="card">
-                <img src="./assets/electrical.png">
+                <img src="./assets/electrical.png" alt="Electrical">
                 <p class="head">Electrical</p>
                 <p>Licensed electricians for wiring, repairs, and installations.Safety first, always</p>
             </div>
             <div class="card">
-                <img src="./assets/cleaning.png">
+                <img src="./assets/cleaning.png" alt="Cleaning">
                 <p class="head">Cleaning</p>
                 <p>Professional cleaners forhomes and offices. Deep cleaning and regular maintenance</p>
             </div>
             <div class="card">
-                <img src="./assets/carpentary.png">
+                <img src="./assets/carpentary.png" alt="Carpentary">
                 <p class="head">Carpentary</p>
                 <p>Skilled carpenters for furniture, repairs,and custom woodwork projects</p>
             </div>
             <div class="card">
-                <img src="./assets/painting.png">
+                <img src="./assets/painting.png" alt="Painting">
                 <p class="head">Painting</p>
                 <p>Professional painters for interior and exterior. Transform your space today</p>
             </div>
             <div class="card">
-                <img src="./assets/gardening.png">
+                <img src="./assets/gardening.png" alt="Gardening">
                 <p class="head">Gardening</p>
                 <p>Expert gardeners for landscaping,lawn care, and plant maintenance</p>
             </div>
         </div>
-        
     </div>
+    
     <div class="footer">
         <div class="description">
             <div class="l">
-                <img src="./assets/footer.png">
+                <img src="./assets/footer.png" alt="Footer Logo">
                 <p>LocalPro</p>
             </div>
             <p>Connecting you with trusted local service professionals. Quality work, fair prices, peace of mind</p>
             <div class="icons">
-                <img src="./assets/instagram.svg">
-                <img src="./assets/facebook.svg">
-                <img src="./assets/twitter.svg">
-                <img src="./assets/linkedin.svg">
+                <img src="./assets/instagram.svg" alt="Instagram">
+                <img src="./assets/facebook.svg" alt="Facebook">
+                <img src="./assets/twitter.svg" alt="Twitter">
+                <img src="./assets/linkedin.svg" alt="LinkedIn">
             </div>
         </div>
         <div class="ser">
@@ -172,6 +171,7 @@
             </div>
         </div>
     </div>
+    
     <div class="copy">
         <p>© 2024 LocalPro. All rights reserved.</p>
         <div class="grp">
@@ -180,6 +180,7 @@
             <p>Cookie Policy</p>
         </div>
     </div>
-    <script href="app.js"></script>
+    
+    <script src="app.js"></script>
 </body>
 </html>
